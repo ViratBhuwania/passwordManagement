@@ -1,5 +1,5 @@
 var mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://mongodbuser:jokerisback@cluster0.offol.mongodb.net/pms?retryWrites=true&w=majority', { useNewUrlParser: true, useCreateIndex: true })
+mongoose.connect('mongodb+srv://mongodbuser:12345@cluster0.offol.mongodb.net/pms?retryWrites=true&w=majority', { useNewUrlParser: true, useCreateIndex: true })
 var conn = mongoose.connection
 
 var passSchema = new mongoose.Schema({
